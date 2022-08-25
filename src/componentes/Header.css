@@ -1,0 +1,38 @@
+.contenedorHeader{
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.185);
+}
+
+.headerDino{
+    width: 95%;
+    max-width: 1280px;
+    padding: 1em 2em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoImg{
+    width: 100px;
+}
+
+.menuNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuNav .enlace{
+    margin: 0 0 0 1em;
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(15, 0, 0);
+    transition: color 0.2s ease;
+}
+
+.menuNav .enlace:hover{
+    color: rgb(138, 36, 36);
+}
